@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Sequence" id="0">
+    <mxGraphModel dx="1284" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L3" value="Mobile Application" style="shape=umlLifeline;perimeter=lifelinePerimeter;" parent="1" vertex="1">
+          <mxGeometry x="460" y="60" width="140" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" value="Enter check drug interaction" style="endArrow=block;rounded=0;exitX=0.333;exitY=0.196;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="UF8WBHbX7tgku3WOiGEK-4" edge="1">
+          <mxGeometry as="geometry">
+            <mxPoint x="260" y="160" as="sourcePoint" />
+            <mxPoint x="529.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" value="send drug information" style="endArrow=block;rounded=0;" parent="1" edge="1">
+          <mxGeometry as="geometry">
+            <mxPoint x="530" y="280" as="sourcePoint" />
+            <mxPoint x="800" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UF8WBHbX7tgku3WOiGEK-2" value="Database" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UF8WBHbX7tgku3WOiGEK-4" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="30" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="UF8WBHbX7tgku3WOiGEK-5" value="Display check results" style="endArrow=block;rounded=0;exitX=0.503;exitY=0.666;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L3" target="UF8WBHbX7tgku3WOiGEK-4">
+          <mxGeometry as="geometry">
+            <mxPoint x="470" y="390" as="sourcePoint" />
+            <mxPoint x="670" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UF8WBHbX7tgku3WOiGEK-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="799" y="560" as="sourcePoint" />
+            <mxPoint x="799" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UF8WBHbX7tgku3WOiGEK-7" value="Chatbot Response" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
